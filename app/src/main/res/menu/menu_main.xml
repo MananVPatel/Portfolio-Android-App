@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/draw"
+        android:icon="@mipmap/bullseye"
+        android:title="Drawing"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_settingsBC"
+        android:orderInCategory="100"
+        android:title="Color Background"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_settings1"
+                android:orderInCategory="100"
+                android:title="   Yellow"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_settings2"
+                android:orderInCategory="100"
+                android:title="   Salmon"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_settings3"
+                android:orderInCategory="100"
+                android:title="   Teal"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>

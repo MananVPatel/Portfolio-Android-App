@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.patel.mananvpatel.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50px"
+            android:text="Hi, my name is "
+            android:textColor="@android:color/black"
+            android:textSize="15pt"
+            android:id="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="175px"
+            android:text="Manan V. Patel"
+            android:textColor="#003366"
+            android:textSize="20pt" />
+
+        <View
+            android:layout_width="240dp"
+            android:layout_height="4dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350px"
+            android:background="#003366" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="375px"
+            android:text="I'm a Computer Science student studying at the Pennsylvania State University."
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="15pt" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@mipmap/my_pic"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/aboutMe"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="About me"
+            android:onClick="GoToAboutMe"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/Resume"
+            android:layout_alignStart="@+id/Resume"
+            android:layout_marginTop="25dp" />
+
+        <Button
+            android:id="@+id/Resume"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="Resume"
+            android:onClick="GoToPortfolio"
+            android:layout_below="@+id/aboutMe"
+            android:layout_toLeftOf="@+id/textView"
+            android:layout_toStartOf="@+id/textView"
+            android:layout_marginTop="14dp" />
+
+        <Button
+            android:id="@+id/linked"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="LinkedIn"
+            android:onClick="GoToLinkedIn"
+            android:layout_alignBaseline="@+id/aboutMe"
+            android:layout_alignBottom="@+id/aboutMe"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_toEndOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/gitHub"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="GitHub"
+            android:onClick="GoToGitHub"
+            android:layout_alignBaseline="@+id/Resume"
+            android:layout_alignBottom="@+id/Resume"
+            android:layout_alignLeft="@+id/linked"
+            android:layout_alignStart="@+id/linked" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

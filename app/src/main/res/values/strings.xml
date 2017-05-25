@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MananVPatel</string>
+    <string name="about_me">I am an ambitious and motivated software developer with a bachelor\'s
+        degree in Computer Science and a minor in Management Information Systems from Pennsylvania State
+        University. Additionally, I was a resident assistant and a grader/TA, as well as an active member of
+        multiple clubs and organizations on campus. I have built multiple Android applications and this portfolio
+        app \"from the ground up.\" I am actively seeking full time employment in the Software
+        Engineering/Development field. </string>
+    <string name="home_desc" formatted="false">I love building, designing, reading, &amp; cracking logic puzzles.</string>
+    <string-array name="projects_array">
+        <item>ATM.go</item>
+        <item>Classic Sanskrit App</item>
+        <item>Court Counter App</item>
+        <item>SPYTeam (Senior Project)</item>
+        <item>Pebble Watch App</item>
+        <item>Portfolio Website</item>
+        <item>Trivia App</item>
+    </string-array>
+    <string name="atmDesc">• Worked with a team of 5 hackers to build a facial recognition web interface and an android app for Capital
+        One in order to accelerate the deposit/withdrawal process. \n\n• Analyzed a multitude of the real public-facing data provided
+        by the Nessie API in order to create an ”on the go” banking experience for Capital One customers.</string>
+    <string name="sansDesc">• Built a multi-screen app using intents, external libraries, interfaces, and custom classes that enables users to
+        learn Sanskrit words, numbers, phrases, and colors.\n\n
+        • Each of the categories are implemented using ListView and Custom ArrayAdapters that recycles views to enhance response time.</string>
+    <string name="courtCounterDesc">• Built an app using intents, interfaces, and custom classes that enables users to
+        email custom order information to the person buying the goods.</string>
+    <string name="spDesc">• Implemented a web application which pulls project/organization data from Git-Hub and analyzes it using machine learning.\n\n
+        • The analyzed data isused to evaluate team members placed on a project, based on their performance statistics pulled from GitHub.</string>
+    <string name="pwDesc">• Created a smart watch app using Pebble libraries, AccuWeather API and IBM Watson’s Natural Language Processing API.\n\n
+        • It displays optimal times throughout the day for outdoor activity based on a verbal query made by the user.</string>
+    <string name="portfolioDesc">• Built this portfolio website from the group up using HTML, CSS, and JavaScript. It is hosted on Google\'s App
+        Engine using Python for backend and the domain is secured through Google Domains. </string>
+    <string name="triviaDesc">• Built an app using multiple intents, custom classes, listview, checkboxs, radio buttons and a spinner.\n\n
+        • The app enables the user to pass data by saving states in between activites.</string>
+    <string name="RADesc">• Made a positive impact on the community by constructing educational, social, recreational, and
+        cultural programs.\n\n• Served as a visible campus leader, employee and representative for the Office of Residence Life and Penn State Erie,
+        The Behrend College.</string>
+    <string name="TADesc">• Assisted students with questions and concerns regarding labs and homework
+        assignments.\n\n• Collaborated with the professor for future assignments.</string>
+
+    <string-array name="workExp_array">
+        <item>Resident Assistant</item>
+        <item>Teaching Assistant</item>
+    </string-array>
+
+    <string name="title_activity_resume_viewer">ResumeViewer</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_resumeviewer">resumeviewer</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.patel.mananvpatel.MainActivity">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi, my name is "
+        android:textSize="15pt"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manan V. Patel"
+        android:textColor="#003366"
+        android:textSize="20pt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175px"
+        android:id="@+id/textView" />
+    <View
+        android:layout_width="240dp"
+        android:layout_height="4dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350px"
+        android:background="#003366" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_desc"
+        android:textSize="15pt"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400px"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@mipmap/my_pic"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/aboutMe"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="About me"
+        android:onClick="GoToAboutMe"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+    <Button
+        android:id="@+id/Resume"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Portfolio"
+        android:onClick="GoToPortfolio"
+        android:layout_marginTop="69dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_alignTop="@+id/aboutMe"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/linked"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="LinkedIn"
+        android:onClick="GoToLinkedIn"
+        android:layout_alignBaseline="@+id/Resume"
+        android:layout_alignBottom="@+id/Resume"
+        android:layout_toRightOf="@+id/aboutMe"
+        android:layout_toEndOf="@+id/aboutMe" />
+    <Button
+        android:id="@+id/gitHub"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="GitHub"
+        android:onClick="GoToGitHub"
+        android:layout_alignBaseline="@+id/Resume"
+        android:layout_alignBottom="@+id/Resume"
+        android:layout_toRightOf="@+id/Resume"
+        android:layout_toEndOf="@+id/Resume" />
+
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

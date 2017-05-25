@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.patel.mananvpatel.aboutMe">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who am I?"
+            android:layout_centerHorizontal="true"
+            android:textSize="40dp"
+            android:id="@+id/whoAmI"
+            android:textColor="@android:color/holo_green_light" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_me"
+            android:layout_below="@id/whoAmI"
+            android:id="@+id/desc"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/desc"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/navLV">
+        </ListView>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
